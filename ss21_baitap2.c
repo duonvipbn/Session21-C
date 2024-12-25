@@ -11,7 +11,7 @@ int main() {
     if (ch != EOF) {
         printf("Ky tu dau tien trong file: %c\n", ch);
     } else {
-        printf("File rong hoac space.\n");
+        printf("File rong.\n");
     }
 
     fclose(file);
